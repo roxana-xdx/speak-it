@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speak it! | Community Forum</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <h2><a href="../index.html">Speak it!</a></h2>
+            </div>
+            <div>
+                <p>Because the best way to learn a language is to <i>Speak it!</i></p>
+            </div>
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="ipa-guide.html">IPA Guide</a></li>
+                <li><a href="forum.html">Community</a></li>
+                <li><a href="../index.html">Log Out</a></li>
+                <li><a href="https://github.com/roxana-xdx" target="_blank" rel="noopener noreferrer">My GitHub</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <header>
+            <h1>Community Forum</h1>
+            <p>Practice your writing, ask questions, and connect with other language learners.</p>
+        </header>
+
+        <section class="new-post">
+            <h2>Start a new discussion</h2>
+            <form action="#" method="POST">
+                <div>
+                    <label for="post-topic">Topic:</label><br>
+                    <select id="post-topic" name="post-topic">
+                        <option value="spanish">Spanish</option>
+                        <option value="french">French</option>
+                        <option value="german">German</option>
+                        <option value="general">General Learning</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="post-title">Title:</label><br>
+                    <input type="text" id="post-title" name="post-title" required>
+                </div>
+                <br>
+                <div>
+                    <label for="post-body">Message:</label><br>
+                    <textarea id="post-body" name="post-body" rows="4" required></textarea>
+                </div>
+                <br>
+                <button type="submit">Post to Forum</button>
+            </form>
+        </section>
+
+        <hr>
+
+        <section class="forum-threads">
+            <h2>Recent Discussions</h2>
+            
+            <article class="thread">
+                <header>
+                    <h3><a href="#">Difference between "Por" and "Para" in Spanish?</a></h3>
+                    <p>Posted by <strong>SpanishOrVanish1</strong> in <em>Spanish</em> | 2 hours ago</p>
+                </header>
+                <p>I'm having a really hard time understanding when to use por versus para. Can someone explain it simply?</p>
+                <footer>
+                    <p>Replies: 12 | <a href="#">Reply to thread</a></p>
+                </footer>
+            </article>
+
+            <br>
+
+            <article class="thread">
+                <header>
+                    <h3><a href="#">Tips for rolling the "R"</a></h3>
+                    <p>Posted by <strong>RickRoller99</strong> in <em>General Learning</em> | 5 hours ago</p>
+                </header>
+                <p>I've been looking at the IPA guide for the Spanish trill (/r/), but I just can't get the right sound. Any exercises?</p>
+                <footer>
+                    <p>Replies: 4 | <a href="#">Reply to thread</a></p>
+                </footer>
+            </article>
+            
+            <br>
+            
+            <article class="thread">
+                <header>
+                    <h3><a href="#">Bonjour à tous ! Pratiquons ici :)</a></h3>
+                    <p>Posted by <strong>SimonaLearnsFrench</strong> in <em>French</em> | 1 day ago</p>
+                </header>
+                <p>Salut ! Si vous voulez pratiquer votre français, répondez à ce message en vous présentant.</p>
+                <footer>
+                    <p>Replies: 34 | <a href="#">Reply to thread</a></p>
+                </footer>
+            </article>
+
+        </section>
+    </main>
+
+    <br><br>
+    <footer>
+        <p>&copy; 2026 <i>Speak it!</i>. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
