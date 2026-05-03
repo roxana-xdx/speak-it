@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/global.css">
     <title>Speak it! | Community Forum</title>
 </head>
 <body>
@@ -17,7 +19,14 @@
             </div>
             <ul>
                 <li><a href="dashboard.html">Dashboard</a></li>
-                <li><a href="ipa-guide.html">IPA Guide</a></li>
+                <li class="dropdown">
+                    <a href="ipa-guide.html">IPA Guide <i class="fas fa-caret-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="ipa-guide.html#spanish">Spanish</a></li>
+                        <li><a href="ipa-guide.html#french">French</a></li>
+                        <li><a href="ipa-guide.html#german">German</a></li>
+                    </ul>
+                </li>
                 <li><a href="forum.html">Community</a></li>
                 <li><a href="../index.html">Log Out</a></li>
                 <li><a href="https://github.com/roxana-xdx" target="_blank" rel="noopener noreferrer">My GitHub</a></li>
@@ -70,7 +79,7 @@
                 </header>
                 <p>I'm having a really hard time understanding when to use por versus para. Can someone explain it simply?</p>
                 <footer>
-                    <p>Replies: 12 | <a href="#">Reply to thread</a></p>
+                    <p>Replies: 12 | <a href="#" class="reply-btn"><i class="fas fa-reply"></i> Reply</a></p>
                 </footer>
             </article>
 
@@ -83,7 +92,7 @@
                 </header>
                 <p>I've been looking at the IPA guide for the Spanish trill (/r/), but I just can't get the right sound. Any exercises?</p>
                 <footer>
-                    <p>Replies: 4 | <a href="#">Reply to thread</a></p>
+                    <p>Replies: 4 | <a href="#" class="reply-btn"><i class="fas fa-reply"></i> Reply</a></p>
                 </footer>
             </article>
             
@@ -96,7 +105,7 @@
                 </header>
                 <p>Salut ! Si vous voulez pratiquer votre français, répondez à ce message en vous présentant.</p>
                 <footer>
-                    <p>Replies: 34 | <a href="#">Reply to thread</a></p>
+                    <p>Replies: 34 | <a href="#" class="reply-btn"><i class="fas fa-reply"></i> Reply</a></p>
                 </footer>
             </article>
 
